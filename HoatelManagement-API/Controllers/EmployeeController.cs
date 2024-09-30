@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace HoatelManagement_API.Controllers
 {
         [ApiController]
-        [Route("api/[controller]")]
+        [Route("api/narendar/[controller]")]
         public class StudentsController : ControllerBase
         {
             private readonly IEmployeeRepository _employeeRepository;
